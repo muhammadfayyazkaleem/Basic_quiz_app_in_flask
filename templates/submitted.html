@@ -2,12 +2,59 @@
 <html lang="en">
 <head>
     {% include 'bootstrap.html' %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #007bff;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        b {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .result-container {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
    <div class="container mt-2 my-4">
         <h2>Quiz Application</h2>
-        <div class="container">
-            <h3> This is Your Quiz Result: <b class="mx-2"> {{ result }}</b></h3>
+        <div class="result-container">
+            <h3>This is Your Quiz Result: <b class="mx-2">{{ result }}</b></h3>
         </div>
    </div>
 </body>
