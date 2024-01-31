@@ -22,21 +22,21 @@ class Question:
             return self.option_3
         
 
-q1 = Question(1,"Which is a largest city of Pakistan?","Karachi","lahore","Multan",1)
-q2 = Question(2,"Which is a largest river of pakistan?", "Indus River", "Sutleh River", "chaneb River",1)
-q3 = Question(3, "The Capital of pakistan is :" , "Karachi", "Lahore", "Islamabad",3)
-q4 = Question(4 , "The President of Pakistan is :", "Arif Alavi" , "Imran Khan " , "Junaid Kaleem", 1)
-q5 = Question(5,"Which is a largest city of Pakistan?","Karachi","lahore","Multan",1)
-q6 = Question(6,"Which is a largest river of pakistan?", "Indus River", "Sutleh River", "chaneb River",1)
-q7 = Question(7, "The Capital of pakistan is :" , "Karachi", "Lahore", "Islamabad",3)
-q8 = Question(8 , "The President of Pakistan is :", "Arif Alavi" , "Imran Khan " , "Junaid Kaleem", 1)
-q9 = Question(9,"Which is a largest city of Pakistan?","Karachi","lahore","Multan",1)
-q10 = Question(10,"Which is a largest river of pakistan?", "Indus River", "Sutleh River", "chaneb River",1)
-q11 = Question(11, "The Capital of pakistan is :" , "Karachi", "Lahore", "Islamabad",3)
-q12 = Question(12 , "The President of Pakistan is :", "Arif Alavi" , "Imran Khan " , "Junaid Kaleem", 1)
+q1 = Question(1,"What does the len() function in Python do?","Returns the last element of a list","Returns the length of a sequence","Rounds a floating-point number",2)
+
+q2 = Question(2,"What is the purpose of the __init__ method in a Python class?", "Initializes the class object", "Defines class variables", "Performs mathematical operations",1)
+
+q3 = Question(3, "What does the import keyword do in Python?" , "Imports a module or a package", "Defines a new variable", "Creates a loop",1)
+
+q4 = Question(4 , "What does the range() function in Python generate?", "A range object representing a sequence of numbers" , "A list of numbers" , "A random number", 1)
+
+q5 = Question(5,"What is the purpose of the __str__ method in Python?","Converts an object to a string","Computes the square root of a number","Checks if two objects are equal",1)
+
+q6 = Question(6,"What does the pop() method do in Python?", "Adds an element to the end of a list", "Removes and returns the last element from a list", "Reverses the order of elements in a list",2)
 
 
-question_list = [ q1, q2, q3 , q4, q5, q6, q7, q8, q9, q10, q11, q12]
+
+question_list = [ q1, q2, q3 , q4, q5, q6]
 
     
 
